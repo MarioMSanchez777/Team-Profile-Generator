@@ -1,0 +1,52 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+a {
+    color: #da08e5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #01c7fd;
+    text-decoration: none;
+}
+
+.jumbotron {
+    background-color: #2e4c54;
+}
+
+.main {
+    flex-wrap: wrap;
+    margin: 2em auto;
+}
+
+.employee-card {
+    margin: 1em;
+    max-width: 300px;
+    width: 100%;
+    color: white;
+    display: flex;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    border: none;
+}
+
+.manager {
+    background-color: #f7060e;
+}
+
+.engineer {
+    background-color: #2a9e68;
+}
+
+.intern {
+    background-color: #dde03e;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
